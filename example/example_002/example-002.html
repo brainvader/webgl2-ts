@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="../../style/main.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../../style/page.css" />
+        <script src="./example_002.ts"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/monokai_sublime.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+    </head>
+
+    <body>
+        <main class="page-main">
+            <h1 class="page-title">WebGLのためのアニメーション</h1>
+            <section class="page-item">
+                <h1 class="page-item-title">Result</h1>
+                <div class="viewport" title="This is my caption">
+                    <canvas class="gl-canvas"></canvas>
+                </div>
+                <p class="page-item-caption">Click to Start</p>
+            </section>
+
+            <section class="page-item">
+                <h1 class="page-item-title">手順</h1>
+                <div class="page-item-content">
+                    <ol>
+                        <li>関数を定義する.</li>
+                        <li>上の関数内部でrequestAnimationFrameを呼び出す.</li>
+                        <li>requestAnimationFrameに1の関数を渡す.</li>
+                    </ol>
+                </div>
+            </section>
+
+            <section class="page-item">
+                <h2 class="page-item-title">Reference</h2>
+                <ul class="reference">
+                    <li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener">EventTarget.addEventListener()</a></li>
+                    <li><a target="_blank" href="https://gomakethings.com/checking-event-target-selectors-with-event-bubbling-in-vanilla-javascript/">Checking
+                            event target selectors with event bubbling in vanilla JavaScript</a></li>
+                    <li><a target="_blank" href="https://qiita.com/kozy4324/items/85831e2c990d92b8397b">addEventListener
+                            の第3引数が拡張されてるという話</a></li>
+                    <li><a target="_blank" href="https://byuzensen.com/javascript-event-how-transmitted">JavaScriptのイベントバブリングという仕様について本気出して考えてみた!!</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="page-footer">
+            <div class="button-prev"><a href="../example_001/example-001.html">&lt;&lt;</a></div>
+            <div class="button-back"><a href="../index.html">MENU</a></div>
+            <div class="button-next"><a href="../example_003/example-003.html">&gt;&gt;</a></div>
+        </footer>
+    </body>
+
+</html>

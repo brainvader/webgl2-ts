@@ -1,0 +1,145 @@
+p {
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.page-title {
+    margin: 0;
+    text-align: center;
+    padding: 0.3em 0;
+}
+
+.page-main {
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    background: rgb(85, 85, 85);
+}
+
+.page-item {
+    border-top: 1px dotted white;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-item-title {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.page-item-caption {
+    margin-top: 1em;
+}
+
+.viewport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.gl-canvas {
+    width: 80%;
+    height: 512px;
+    border: 1px solid white;
+}
+
+.gl-canvas2 {
+    width: 512px;
+    height: 512px;
+    border: 1px solid white;
+}
+
+.page-item-content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cell-left {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+}
+
+.cell-left > .cell-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13%;
+    margin-right: 2%;
+}
+
+.cell-left > .cell-text {
+    width: 70%;
+    text-align: left;
+}
+
+.cell-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2em;
+}
+
+.cell-right > .cell-icon {
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13%;
+    margin-left: 2%;
+}
+
+.cell-right > .cell-text {
+    order: 1;
+    width: 70%;
+}
+
+.cell-center {
+    margin: 1em auto 2em auto;
+}
+
+.cell-center > .cell-text {
+    text-align: center;
+}
+
+.cell-code {
+    margin-bottom: 0.5em;
+}
+
+.cell-code pre {
+    margin: 0;
+}
+
+.cell-code code {
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.reference a {
+    color: rgb(0, 145, 255);
+}
+
+.reference a:visited {
+    color: rgb(0, 71, 125);
+}
+
+.page-footer {
+    width: 70%;
+    padding: 1em 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background: rgb(85, 85, 85);
+}
+
+.button-back a {
+    color: rgb(0, 166, 232);
+}

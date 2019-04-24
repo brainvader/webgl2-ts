@@ -1,0 +1,33 @@
+.main-content {
+    box-sizing: border-box;
+    height: 100%;
+    color: white;
+    background: rgb(85, 85, 85);
+}
+
+.main-menu-title {
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1em 0;
+}
+
+.main-menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.main-menu-item a {
+    color: rgb(0, 145, 255);
+}
+
+.main-menu-item a:visited {
+    color: rgb(0, 71, 125);
+}

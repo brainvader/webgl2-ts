@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="../../style/main.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../../style/page.css" />
+        <script src="example_001.ts"></script>
+    </head>
+
+    <body>
+        <main class="page-main">
+
+            <section class="page-item">
+                <h1 class="page-item-title">Result</h1>
+                <div class="viewport" title="This is my caption">
+                    <canvas class="gl-canvas"></canvas>
+                </div>
+                <p class="page-item-caption">カラー・バッファを黒でクリア</p>
+            </section>
+
+            <section class="page-item">
+                <h1 class="page-item-title">Result</h1>
+                <div class="viewport">
+                    <canvas class="gl-canvas2"></canvas>
+                </div>
+                <p class="page-item-caption">カラー・バッファを赤でクリア</p>
+            </section>
+
+            <section class="page-item">
+                <h1 class="page-item-title">手順</h1>
+                <div class="page-item-content">
+                    <ol>
+                        <li>Canvas要素の配置</li>
+                        <li>コンテクストの取得</li>
+                        <li>カラー・バッファの色の設定</li>
+                        <li>カラー・バッファのクリア</li>
+                    </ol>
+                </div>
+            </section>
+
+            <section class="page-item">
+                <h2 class="page-item-title">Reference</h2>
+                <ul class="reference">
+                    <li><a href="https://qiita.com/emadurandal/items/b12f320c4d66b365215e">【悲報】WebGLでは複数コンテキスト間のリソース共有が（現時点では）できなかった！</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="page-footer">
+            <div class="button-back"><a href="../index.html">Back</a></div>
+        </footer>
+    </body>
+
+</html>
